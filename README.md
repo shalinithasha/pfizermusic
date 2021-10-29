@@ -1,6 +1,11 @@
 # Pfizer music bot 
 A Telegram Userbot to play Audio and Video songs / files in Telegram Voice Chats.
 
+<div align="center">
+<img src="https://i.pinimg.com/originals/83/23/36/8323363c51b84decc792cec2d23a430f.jpg" />
+  </div>
+
+
 It's made with [Shalinibots](https://github.com/shalinithasha) and [Pyrogram](https://github.com/pyrogram/pyrogram)
 
 
