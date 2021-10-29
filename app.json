@@ -1,0 +1,46 @@
+{
+    "name": "PFIZER MusicPlayer",
+    "description": "A Telegram Userbot to play Songs in Voice Chat",
+    "logo": "https://i.pinimg.com/originals/83/23/36/8323363c51b84decc792cec2d23a430f.jpg",
+    "keywords": [
+        "Telegram",
+        "VCBot",
+        "MusicPlayer"
+    ],
+    "repository": "https://github.com/shalinithasha/pfizermusic",
+    "env": {
+        "SESSION": {
+            "description": "Pyrogram String Session",
+            "required": true
+        },
+        "API_ID": {
+            "description": "my.telegram.org",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "my.telegram.org",
+            "required": true
+        },
+        "HNDLR": {
+            "description": "Handler | Default (!)",
+            "value": "!",
+            "required": false
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        },
+        {
+            "url": "https://github.com/shalinithasha/pfizermusic"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    },
+    "stack": "container"
+}
